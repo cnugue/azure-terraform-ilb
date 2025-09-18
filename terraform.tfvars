@@ -1,0 +1,7 @@
+resource_group_name = "iLB-Demo-rg"
+location            = "East US"
+vnet_name           = "iLB-Demo-VNet"
+subnet_name         = "iLB-Demo-subnet"
+lb_name             = "iLB-Demo"
+vm_size             = "Standard_B2s"
+adminadmin_username = "azoreuser"  
