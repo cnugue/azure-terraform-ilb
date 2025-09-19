@@ -1,4 +1,9 @@
 # General
+variable "subscription_id" {
+  description = "The Azure subscription ID where resources will be created"
+  type        = string
+}
+
 variable "resource_group_name" {
     description = "Nmae of the resource group"
     type        = string

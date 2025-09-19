@@ -7,7 +7,7 @@ resource "azurerm_lb" "ilb" {
 frontend_ip_configuration {
     name                = "iLB-Frontend"
     subnet_id           = var.subnet_id
-    private_ip_address_allocation = var.rg_name
+    private_ip_address_allocation = "Dynamic"
     }
 }
 

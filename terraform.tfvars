@@ -1,3 +1,4 @@
+subscription_id     = "f1ef57de-7beb-49c7-9542-1487452c6ea6"
 resource_group_name = "iLB-Demo-rg"
 location            = "East US"
 vnet_name           = "iLB-Demo-VNet"
